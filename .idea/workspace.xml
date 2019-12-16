@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8090738-c083-4914-a719-8e2acbab53d8" name="Default Changelist" comment="" />
+    <list default="true" id="a8090738-c083-4914-a719-8e2acbab53d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/StringCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/StringCalculatorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Uvmkc7PD0U8lmNlfCWUMJKErnC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last.edited.regexp" value="&quot;,1&quot;" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -37,22 +46,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTest.given_multiple_numbers_should_return_their_sum">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest.given_one_number_ending_with_return_separator_only_return_the_number">
     <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KataTDDStringCalculator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringCalculatorTest.given_empty_string_should_return_zero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="KataTDDStringCalculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
-      <option name="METHOD_NAME" value="given_empty_string_should_return_zero" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -67,21 +66,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorTest.given_one_number_should_return_the_same_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTest.given_multiple_numbers_with_return_and_comma_separators_should_return_their_sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KataTDDStringCalculator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
-      <option name="METHOD_NAME" value="given_one_number_should_return_the_same_number" />
+      <option name="METHOD_NAME" value="given_multiple_numbers_with_return_and_comma_separators_should_return_their_sum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorTest.given_two_numbers_should_return_the_sum_of_numbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTest.given_one_number_ending_with_return_separator_only_return_the_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KataTDDStringCalculator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
-      <option name="METHOD_NAME" value="given_two_numbers_should_return_the_sum_of_numbers" />
+      <option name="METHOD_NAME" value="given_one_number_ending_with_return_separator_only_return_the_number" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCalculatorTest.given_two_numbers_with_return_separator_should_return_their_sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KataTDDStringCalculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
+      <option name="METHOD_NAME" value="given_two_numbers_with_return_separator_should_return_their_sum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCalculatorTest.given_one_number_ending_with_return_separator_only_return_the_number" />
+        <item itemvalue="JUnit.StringCalculatorTest.given_multiple_numbers_with_return_and_comma_separators_should_return_their_sum" />
+        <item itemvalue="JUnit.StringCalculatorTest.given_two_numbers_with_return_separator_should_return_their_sum" />
         <item itemvalue="JUnit.StringCalculatorTest.given_multiple_numbers_should_return_their_sum" />
         <item itemvalue="JUnit.StringCalculatorTest" />
-        <item itemvalue="JUnit.StringCalculatorTest.given_two_numbers_should_return_the_sum_of_numbers" />
-        <item itemvalue="JUnit.StringCalculatorTest.given_one_number_should_return_the_same_number" />
-        <item itemvalue="JUnit.StringCalculatorTest.given_empty_string_should_return_zero" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +128,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576245586848</updated>
-      <workItem from="1576245590629" duration="1250000" />
+      <workItem from="1576245590629" duration="1357000" />
+      <workItem from="1576484557479" duration="655000" />
     </task>
     <servers />
   </component>
@@ -135,22 +145,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1576245617296" />
-    <state width="1396" height="254" key="GridCell.Tab.0.bottom" timestamp="1576246836556">
+    <state width="1396" height="254" key="GridCell.Tab.0.bottom" timestamp="1576485140510">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="254" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576246836556" />
-    <state width="1396" height="254" key="GridCell.Tab.0.center" timestamp="1576246836555">
+    <state width="1396" height="254" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576485140510" />
+    <state width="1396" height="254" key="GridCell.Tab.0.center" timestamp="1576485140509">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="254" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576246836555" />
-    <state width="1396" height="254" key="GridCell.Tab.0.left" timestamp="1576246836555">
+    <state width="1396" height="254" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576485140509" />
+    <state width="1396" height="254" key="GridCell.Tab.0.left" timestamp="1576485140508">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="254" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576246836555" />
-    <state width="1396" height="254" key="GridCell.Tab.0.right" timestamp="1576246836556">
+    <state width="1396" height="254" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576485140508" />
+    <state width="1396" height="254" key="GridCell.Tab.0.right" timestamp="1576485140509">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="254" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576246836556" />
+    <state width="1396" height="254" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576485140509" />
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1576484557869">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1576484557869" />
     <state x="424" y="351" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576245683379">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
