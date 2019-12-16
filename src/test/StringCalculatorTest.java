@@ -54,4 +54,9 @@ public class StringCalculatorTest {
     public void given_one_number_ending_with_return_separator_only_return_the_number() {
         assertEquals(1, stringCalculator.add("1\n"));
     }
+
+    @Test
+    public void given_different_separator_should_return_their_sum() {
+        assertEquals(2, stringCalculator.add("//;\n1;1"));
+    }
 }

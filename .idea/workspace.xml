@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8090738-c083-4914-a719-8e2acbab53d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/StringSeparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/StringSeparatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/StringCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/StringSeparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/StringSeparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/StringCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="&quot;,1&quot;" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -46,7 +54,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTest">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest.given_one_number_ending_with_return_separator_only_return_the_number">
     <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KataTDDStringCalculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -56,11 +64,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorTest.given_multiple_numbers_should_return_their_sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTest.given_different_separator_should_return_their_sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KataTDDStringCalculator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StringCalculatorTest" />
-      <option name="METHOD_NAME" value="given_multiple_numbers_should_return_their_sum" />
+      <option name="METHOD_NAME" value="given_different_separator_should_return_their_sum" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringCalculatorTest" />
         <item itemvalue="JUnit.StringCalculatorTest.given_one_number_ending_with_return_separator_only_return_the_number" />
+        <item itemvalue="JUnit.StringCalculatorTest.given_different_separator_should_return_their_sum" />
+        <item itemvalue="JUnit.StringCalculatorTest" />
         <item itemvalue="JUnit.StringCalculatorTest.given_multiple_numbers_with_return_and_comma_separators_should_return_their_sum" />
         <item itemvalue="JUnit.StringCalculatorTest.given_two_numbers_with_return_separator_should_return_their_sum" />
-        <item itemvalue="JUnit.StringCalculatorTest.given_multiple_numbers_should_return_their_sum" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576245586848</updated>
       <workItem from="1576245590629" duration="1357000" />
-      <workItem from="1576484557479" duration="1082000" />
+      <workItem from="1576484557479" duration="3000000" />
     </task>
     <servers />
   </component>
@@ -149,22 +157,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="486" y="316" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1576485513804" />
-    <state width="1396" height="254" key="GridCell.Tab.0.bottom" timestamp="1576485308596">
+    <state width="1396" height="254" key="GridCell.Tab.0.bottom" timestamp="1576489136835">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="254" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576485308596" />
-    <state width="1396" height="254" key="GridCell.Tab.0.center" timestamp="1576485308595">
+    <state width="1396" height="254" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576489136835" />
+    <state width="1396" height="254" key="GridCell.Tab.0.center" timestamp="1576489136834">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="254" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576485308595" />
-    <state width="1396" height="254" key="GridCell.Tab.0.left" timestamp="1576485308594">
+    <state width="1396" height="254" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576489136834" />
+    <state width="1396" height="254" key="GridCell.Tab.0.left" timestamp="1576489136834">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="254" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576485308594" />
-    <state width="1396" height="254" key="GridCell.Tab.0.right" timestamp="1576485308596">
+    <state width="1396" height="254" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576489136834" />
+    <state width="1396" height="254" key="GridCell.Tab.0.right" timestamp="1576489136835">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="254" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576485308596" />
+    <state width="1396" height="254" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576489136835" />
+    <state width="1396" height="314" key="GridCell.Tab.1.bottom" timestamp="1576489116029">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="314" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576489116029" />
+    <state width="1396" height="314" key="GridCell.Tab.1.center" timestamp="1576489116029">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="314" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1576489116029" />
+    <state width="1396" height="314" key="GridCell.Tab.1.left" timestamp="1576489116028">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="314" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1576489116028" />
+    <state width="1396" height="314" key="GridCell.Tab.1.right" timestamp="1576489116029">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="314" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1576489116029" />
     <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1576484557869">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -177,5 +201,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="301" y="180" width="837" height="540" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1576245817451" />
+    <state x="385" y="210" key="run.anything.popup" timestamp="1576486490132">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1576486490132" />
   </component>
 </project>
